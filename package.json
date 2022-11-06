@@ -1,5 +1,6 @@
 {
   "name": "@hasparus/rng",
+  "version": "1.0.0",
   "module": "dist/index.js",
   "type": "module",
   "sideEffects": false,
@@ -12,7 +13,8 @@
   },
   "scripts": {
     "build": "tsup",
-    "test": "vitest"
+    "test": "vitest",
+    "release": "pnpm build && pnpm publish"
   },
   "devDependencies": {
     "fast-check": "^3.3.0",
