@@ -1,5 +1,7 @@
 # @hasparus/rng
 
+tiny pseudorandom number generator
+
 ## API
 
 ```ts
