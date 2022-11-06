@@ -1,5 +1,5 @@
 {
-  "name": "@hasparus/random",
+  "name": "@hasparus/rng",
   "module": "dist/index.js",
   "type": "module",
   "sideEffects": false,
