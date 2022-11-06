@@ -1,0 +1,7 @@
+# @hasparus/random
+
+## API
+
+```
+
+```

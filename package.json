@@ -1,0 +1,23 @@
+{
+  "name": "@hasparus/random",
+  "module": "dist/index.js",
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "fast-check": "^3.3.0",
+    "tsup": "^6.4.0",
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.5"
+  }
+}
